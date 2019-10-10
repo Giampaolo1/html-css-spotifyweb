@@ -23,7 +23,7 @@ nav a {
   display: flex;
   width: 100vw;
   height: 100vh;
-  border: solid 3px green;
+  border: solid 3px lightgreen;
 }
 
 /* nav laterale */
