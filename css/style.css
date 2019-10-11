@@ -16,17 +16,18 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  color: lightgrey;
 }
 nav li {
   padding: 2%;
 }
 nav a {
   text-decoration: none;
+  color: lightgrey;
 }
-nav li:hover {
+nav a:hover {
   color: white;
-}
+  text-decoration: none;}
+
 /* fine elenchi puntati */
 
 /* bloccone di pagina */
@@ -43,20 +44,54 @@ nav li:hover {
   height: calc(100% - 100px);
   background: black;
   color: white;
-  border: solid green; /* DEBUG:  */
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   }
+  /* logo:  */
   .logo img {
-    border: solid yellow; /* DEBUG:  */
   }
+  /* piccolanav */
   .piccolanav {
-    border: solid yellow; /* DEBUG:  */
+    margin-bottom: 230px;
   }
+
+  .piccolanav ul {
+      display: inline-block;
+    }
+
+  .home {
+    border-left: 4px solid lightgreen;
+  }
+
+  .home, .cerca, .libreria {
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  /* iscriviti */
+
   .login {
-    border: solid yellow; /* DEBUG:  */
+    color: grey;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  .bottoni {
+    display: block;
+    margin: 10px;
+    padding: 5px 50px;
+  }
+
+  .bottone1 {
+    background: white;
+    color: black;
+  }
+
+  .bottone2 {
+    background: black;
     color: white;
-    justify-content: flex-end;
+    padding: 5px 55px;
   }
 
   /* position: absolute;
