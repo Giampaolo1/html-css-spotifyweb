@@ -49,19 +49,17 @@ nav a:hover {
   justify-content: space-between;
   }
   /* logo:  */
-  .logo img {
-  }
+
   /* piccolanav */
   .piccolanav {
     margin-bottom: 230px;
   }
-
   .piccolanav ul {
-      display: inline-block;
+      display: block;
     }
 
   .home {
-    border-left: 4px solid lightgreen;
+    border-left: solid green;
   }
 
   .home, .cerca, .libreria {
