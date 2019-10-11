@@ -59,12 +59,14 @@ nav a:hover {
     }
 
   .home {
-    border-left: solid green;
+    border-left: solid lightgreen;
   }
 
   .home, .cerca, .libreria {
     font-size: 20px;
     margin: 5px;
+    padding-left: 5px;
+
   }
 
   /* iscriviti */
