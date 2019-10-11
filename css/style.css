@@ -56,8 +56,7 @@ nav li:hover {
   .login {
     border: solid yellow; /* DEBUG:  */
     color: white;
-    display: flex;
-    align-self: flex-end;
+    justify-content: flex-end;
   }
 
   /* position: absolute;
@@ -73,7 +72,7 @@ nav li:hover {
   background-image: linear-gradient(to right, #363449, #21202C);
 }
 
-/* nav */
+/* nav sopra */
 #evidenza {
   color: white;
   border-bottom: green solid 2px;
