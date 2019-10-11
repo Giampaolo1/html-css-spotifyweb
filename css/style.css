@@ -48,7 +48,6 @@ nav li:hover {
   flex-direction: column;
   }
   .logo img {
-    background: white;
     border: solid yellow; /* DEBUG:  */
   }
   .piccolanav {
