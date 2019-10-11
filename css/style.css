@@ -6,15 +6,26 @@
   box-sizing: border-box;
 }
 
+/* font */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 /* elenchi puntati:  */
 nav ul {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  color: lightgrey;
 }
 nav li {
   padding: 2%;
 }
 nav a {
   text-decoration: none;
+}
+nav li:hover {
+  color: white;
 }
 /* fine elenchi puntati */
 
@@ -43,8 +54,31 @@ nav a {
   width: 80%;
   height: calc(100% - 100px);
   border: solid 3px yellow; /* DEBUG:  */
+  background: grey;
   /* background-image: linear-gradient(to right, #6A6102 , #282501); */
-  /* background-image: linear-gradient(to right, #363449, #21202C); */
+  background-image: linear-gradient(to right, #363449, #21202C);
+}
+
+/* nav */
+#evidenza {
+  color: white;
+  border-bottom: green solid 2px;
+}
+
+/* linea1:  */
+h1 {
+  color: white;
+}
+.linea1 {
+  margin: 25px;
+}
+
+.linea1loghi {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0;
 }
 
 /* footer */
@@ -59,18 +93,20 @@ nav a {
 
 /* footer center */
 .buttonsection {
+  border: solid; /* DEBUG:  */
   width: 50%;
   height: 100%;
-  border: solid;
   display: flex;
   justify-content: center;
   color: grey;
   font-size: 18px;
+  flex-wrap: wrap;
+}
+.buttons {
+  width: 100%;
+  text-align: center;
 }
 /* buttons */
-.buttons {
-  display: inline-block;
-}
 .fa-play-circle {
   font-size: 35px;
 }
@@ -80,21 +116,33 @@ nav a {
 /* trackbar */
 .trackbar {
   height: 4px;
-  width:80px;
+  width:70%;
   background: grey;
-  margin: 10px 0;
-  display: inline-block;
+  margin: 10px 2px;
+}
+.pallina {
+  background: white;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: none;
+}
+.trackbar:hover .pallina{
+  display: block;
 }
 
 /* volume bar:  */
 
-.volumebar {
+.volumesection {
+  border: solid; /* DEBUG:  */
   width: 25%;
   height: 100%;
-  border: solid;
   text-align: center;
-  color: white;
-  line-height: 70px;
+  color: grey;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 i:hover {

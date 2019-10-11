@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Fontawesome:  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
     <title>JP Spotify</title>
   </head>
@@ -25,7 +27,43 @@
     </div>
     <!-- mainblock -->
     <main class="mainblock">
-      mainblock
+      <nav>
+        <ul>
+          <li id="evidenza">IN EVIDENZA</li>
+          <li>PODCAST</li>
+          <li>CLASSIFICHE</li>
+          <li>GENERI E MOOD</li>
+          <li>NUOVE USCITE</li>
+          <li>SCOPRI</li>
+        </ul>
+      </nav>
+
+      <!-- linea1:  -->
+      <section class="linea1">
+        <a href="#"><h1>Venerdì, tempo di nuova musica!</h1></a>
+        <ul class="linea1loghi">
+          <li class="fitem">
+            <a href="#"><img src="img/nmf.png" alt="nmf"></a>
+          </li>
+          <li class="fitem">
+            <a href="#"><img src="img/nmf.png" alt="nmf"></a>
+          </li>
+          <li class="fitem">
+            <a href="#"><img src="img/nmf.png" alt="nmf"></a>
+          </li>
+          <li class="fitem">
+            <a href="#"><img src="img/nmf.png" alt="nmf"></a>
+          </li>
+          <li class="fitem">
+            <a href="#"><img src="img/nmf.png" alt="nmf"></a>
+          </li>
+          <li class="fitem">
+            <a href="#"><img src="img/nmf.png" alt="nmf"></a>
+          </li>
+        </ul>
+
+      </section>
+
     <!-- fine main block -->
     </main>
     <!-- footer center -->
@@ -33,27 +71,34 @@
       <!-- buttons -->
       <section class="buttonsection">
         <div class="buttons">
-        <i class="fas fa-random"></i>
-        <i class="fas fa-step-backward"></i>
-        <i class="far fa-play-circle"></i>
-        <i class="fas fa-step-forward"></i>
-        <i class="fas fa-redo-alt"></i>
+          <i class="fas fa-random"></i>
+          <i class="fas fa-step-backward"></i>
+          <i class="far fa-play-circle"></i>
+          <i class="fas fa-step-forward"></i>
+          <i class="fas fa-redo-alt"></i>
         </div>
         <!-- trackbar:  -->
+        <div class="zeroright">
+          0.00
+        </div>
         <div class="trackbar">
-
+          <div class="pallina">
+          </div>
+        </div>
+        <div class="zeroleft">
+          0.00
         </div>
       </section>
 
-      <!-- footer left -->
+      <!-- footer right -->
       <!-- volume bar:  -->
-      <div class="volumebar">
-        <!-- <i class="fas fa-volume-up"></i> -->
+      <section class="volumesection">
+        <i class="fas fa-volume-up"></i>
         <div class="trackbar">
-
+          <div class="pallina">
+          </div>
         </div>
-
-      </div>
+      </section>
     <!-- fine footer player:  -->
     </footer>
     <!-- fine bloccone di pagina -->
