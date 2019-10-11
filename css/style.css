@@ -41,11 +41,24 @@ nav li:hover {
 .navlaterale {
   width: 20%;
   height: calc(100% - 100px);
-  background: grey;
+  background: black;
   color: white;
+  border: solid green; /* DEBUG:  */
+  display: flex;
+  flex-direction: column;
   }
   .logo img {
     background: white;
+    border: solid yellow; /* DEBUG:  */
+  }
+  .piccolanav {
+    border: solid yellow; /* DEBUG:  */
+  }
+  .login {
+    border: solid yellow; /* DEBUG:  */
+    color: white;
+    display: flex;
+    align-self: flex-end;
   }
 
   /* position: absolute;
