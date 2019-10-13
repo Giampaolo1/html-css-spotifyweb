@@ -40,6 +40,10 @@ nav a:hover {
 
 /* nav laterale */
 .navlaterale {
+  overflow: auto;
+}
+
+.navlaterale {
   width: 20%;
   height: calc(100% - 65px);
   background: black;
@@ -85,10 +89,14 @@ nav a:hover {
     align-items: center;
   }
 
+  .login a {
+    color: grey;
+  }
+
   .bottoni {
     display: block;
     margin: 10px;
-    padding: 5px 50px;
+    padding: 1.5% 18%;
     border-radius: 30px;
   }
   .bottoni:hover {
@@ -103,8 +111,13 @@ nav a:hover {
   .bottone2 {
     background: black;
     color: white;
-    padding: 5px 55px;
     border: 1px solid white;
+    padding: 1.5% 20.5%;
+
+  }
+
+  .login h5 {
+    color: grey;
   }
 
   /* position: absolute;
@@ -120,14 +133,12 @@ nav a:hover {
   background-image: linear-gradient(to right, #363449, #21202C);
 }
 
- .mainblock img {
-  max-width: 100%;
-  height: auto;
-  margin: auto;
-};
+main {
+  overflow: auto;
+}
 
 /* nav sopra */
-#evidenza {
+.evidenza {
   color: white;
   border-bottom: green solid 2px;
 }
@@ -135,10 +146,6 @@ nav a:hover {
 /* linea1:  */
 main, h5, h1 {
   font-weight: bold;
-}
-
-main {
-  overflow: auto;
 }
 
 h1 {
@@ -160,6 +167,12 @@ h1 {
 .flex-item {
 flex-basis: calc(100% / 6);
 padding: 5px;
+}
+
+.mainblock img {
+ width: 100%;
+ height: auto;
+ margin: auto;
 }
 
 h5 {
