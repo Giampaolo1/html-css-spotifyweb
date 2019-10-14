@@ -6,6 +6,18 @@
   box-sizing: border-box;
 }
 
+span {
+  color: grey;
+}
+a {
+  color: white;
+}
+
+/* DEBUG:  */
+/* div {border: solid white}
+section {border: solid yellow}
+nav {border: solid green} */
+
 /* font */
 body {
   font-family: 'Roboto', sans-serif;
@@ -133,15 +145,19 @@ nav a:hover {
   background-image: linear-gradient(to right, #363449, #21202C);
 }
 
+a:hover {color: white}
+
 main {
   overflow: auto;
 }
 
 /* nav sopra */
-.evidenza {
+#evidenza {
   color: white;
-  border-bottom: green solid 2px;
+  border-bottom: lightgreen solid 2px;
 }
+
+/* linea1top */
 
 /* linea1:  */
 main, h5, h1 {
@@ -152,8 +168,19 @@ h1 {
   color: white;
 }
 
- .linea1 {
+.linea1 {
   margin: 20px 30px;
+}
+
+.linea1top {
+  display: flex;
+  margin: 0 10px;
+  justify-content: space-between;
+}
+
+h6 {
+  align-self: flex-end;
+  color: grey;
 }
 
 .linea1loghi {
@@ -166,19 +193,45 @@ h1 {
 
 .flex-item {
 flex-basis: calc(100% / 6);
-padding: 5px;
+padding: 1%;
 }
 
-.mainblock img {
- width: 100%;
- height: auto;
- margin: auto;
+.flex-item:hover {
+  opacity: 0.5;
 }
+
+.flex-item img {
+ max-width: 100%;
+ min-height: 80%;
+ margin: auto;
+ position: relative;
+}
+
+.flex-item i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1
+}
+
+/* .flex-item {
+  border: solid white;
+} */
 
 h5 {
   color: white;
   text-align: center;
 }
+
+/* linea2:  */
+
+span {
+  align-self: flex-end;
+  margin: 0 10px;
+
+}
+
 
 /* footer */
 .player {
