@@ -194,25 +194,31 @@ h6 {
 .flex-item {
 flex-basis: calc(100% / 6);
 padding: 1%;
+position: relative;
 }
 
 .flex-item:hover {
   opacity: 0.5;
 }
 
+.flex-item:hover i{
+  display: block;
+}
+
 .flex-item img {
  max-width: 100%;
  min-height: 80%;
  margin: auto;
- position: relative;
 }
 
-.flex-item .play {
+.flex-item i {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: lightgrey;
+  display: none;
+  font-size: 50px;
 }
 
 /* .flex-item {
