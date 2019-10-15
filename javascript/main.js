@@ -1,1 +1,1 @@
-document.getElementById('nowplay').innerHTML='Hello World!';
+document.getElementById('nowplay').innerHTML='ARTISTA E BRANO';
