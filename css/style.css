@@ -308,6 +308,17 @@ span {
   border: solid yellow;
 }
 
+.artistabrano {
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  color: grey;
+  line-height: 50px;
+  justify-content: center;
+  align-items: center;
+  border: solid yellow;
+}
+
 i:hover {
   color: white;
 }
